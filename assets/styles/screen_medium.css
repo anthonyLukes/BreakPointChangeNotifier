@@ -1,0 +1,45 @@
+/* ---------------------------------------------------------------------
+Original Author: Anthony Lukes
+Contributors: N/A
+
+Target Browsers: All
+Media Type: Screen, Projection
+Width: Min-Width 768px
+------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------
+ Media Query Size Identifier
+------------------------------------------------------------------------ */
+body:after {
+    content: 'medium';
+    display: none;
+}
+
+/* ---------------------------------------------------------------------
+ Nav Main
+------------------------------------------------------------------------ */
+.navMain {
+    margin: 0;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.navMain > * {
+    display: inline;
+    border: none;
+}
+
+.navMain a {
+    display: inline-block;
+}
+
+/* ---------------------------------------------------------------------
+ Nav Toggler
+------------------------------------------------------------------------ */
+.navToggler {
+    display: none;/* make sure the nav toggler isn't visible to medium */
+}

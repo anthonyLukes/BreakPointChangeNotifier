@@ -1,0 +1,16 @@
+/* ---------------------------------------------------------------------
+Original Author: Anthony Lukes
+Contributors: N/A
+
+Target Browsers: All
+Media Type: Screen, Projection
+Width: Min-Width 992px
+------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------
+ Media Query Size Identifier
+------------------------------------------------------------------------ */
+body:after {
+    content: 'large';
+    display: none;
+}
