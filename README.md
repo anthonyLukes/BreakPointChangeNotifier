@@ -1,0 +1,1 @@
+This is an event system that publishes a jquery custom event when the user resizes the window across responsive breakpoints. The breakpoint name needs to be specified for each media query in the content: attribute of the body:afer psuedo element.
