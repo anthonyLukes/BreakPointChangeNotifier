@@ -81,7 +81,7 @@ APP.BreakpointChangeNotifier = {
      * @method getCurrentSize
      */
     getCurrentSize: function() {
-        return window.getComputedStyle(document.body,':after').getPropertyValue('content');
+        return window.getComputedStyle(document.body,':after').getPropertyValue('content').replace(/"/g, "");
     },
     /**
      * @method handResize
